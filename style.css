@@ -1,0 +1,12 @@
+body{
+    font-family: 'Nova Square', cursive; 
+    }
+
+    h1{font-size: 50px;}
+    
+    section{
+        display: flex;
+    }
+   .imagedivision img{
+       width: 75%;
+   }
