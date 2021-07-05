@@ -7,6 +7,7 @@ body{
     section
     {
         display: flex;
+        margin-bottom: 50px;
     }
    .imagedivision
    {
@@ -18,7 +19,7 @@ body{
    }
    .link-button{
        text-decoration: none ;
-       background-image: linear-gradient(orange , tomato); 
+       background-image: linear-gradient(red , yellow); 
        color: white;
        font-weight : 700;
        padding: 10px 40px;
@@ -27,4 +28,10 @@ body{
    }
 .top-banner{
     background-repeat: no-repeat;
+}
+
+.about-me {
+    background-image: url(images/dream-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: right;
 }
