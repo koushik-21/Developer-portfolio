@@ -1,10 +1,10 @@
-body{
+    body{
     font-family: 'Nova Square', cursive; 
     }
 
     h1{font-size: 50px;}
     
-    section
+    .flexible-container
     {
         display: flex;
         margin-bottom: 50px;
@@ -12,10 +12,10 @@ body{
    .imagedivision
    {
        width: 55%;
-       padding-left: 20PX;
+       padding-left: 20PX;    
    }
    .imagedivision img{
-       width: 70%;
+       width: 80%;
    }
    .link-button{
        text-decoration: none ;
@@ -23,15 +23,36 @@ body{
        color: white;
        font-weight : 700;
        padding: 10px 40px;
-       border-radius: 5px;
-       r
-   }
-.top-banner{
+       border-radius: 5px;  }
+    .top-banner{
+    background-repeat: no-repeat; }
+    .about-me {
+    background-image: url(images/exp-bg.png) ;
     background-repeat: no-repeat;
-}
-
-.about-me {
-    background-image: url(images/dream-bg.png) ;
-    background-repeat: no-repeat;
-    background-position: right;
-}
+    background-position: right;}
+    .experience-item{
+         box-shadow: 10px 10px 40px gray;
+         width: 40%;
+         margin-left: 5%;
+         margin-right: 5%;
+         padding-left: 10px;
+         border-radius: 10px;
+         border-left: 10px solid;
+     }
+     .experience-area{
+         background-image: url(images/dream-bg.png);
+         background-repeat: no-repeat;
+         background-position: left;
+         
+     }
+     #learn-first{
+         border-left: 7px solid ;
+         border-image: linear-gradient(red,white);
+         border-image-slice: 1;
+     }
+     #ex-item{
+         
+        border-left: 7px solid ;
+        border-image: linear-gradient(orange,yellow);
+        border-image-slice: 1;
+     }
